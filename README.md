@@ -63,26 +63,26 @@ The application follows a Retrieval-Augmented Generation workflow.
                  ChromaDB
               Vector Storage
                      │
-                     │
-    User Question ───────┘
-      │
-      ▼
-    Question Embedding
-      │
-      ▼
-    Retrieve Top Relevant Chunks
-      │
-      ▼
+                     ▼
+              User Question 
+                    │
+                    ▼
+           Question Embedding
+                    │
+                    ▼
+       Retrieve Top Relevant Chunks
+                    │
+                    ▼
     Build Context + Conversation History
-      │
-      ▼
-    Ollama - Llama 3.1 8B
-      │
-      ▼
-    AI Generated Answer
-      │
-      ▼
-    Answer + Sources
-      │
-      ▼
-    React Frontend
+                    │
+                    ▼
+         Ollama - Llama 3.1 8B
+                    │
+                    ▼
+           AI Generated Answer
+                    │
+                    ▼
+           Answer + Sources
+                    │
+                    ▼
+            React Frontend
