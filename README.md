@@ -1,4 +1,4 @@
-SWS AI RAG Chatbot - Frontend
+SWS AI RAG Chatbot 
 
 A React-based frontend for the **SWS AI RAG Chatbot**, designed to provide a simple and interactive interface for asking questions about company documents.
 
@@ -64,25 +64,25 @@ The application follows a Retrieval-Augmented Generation workflow.
               Vector Storage
                      │
                      │
-User Question ───────┘
+    User Question ───────┘
       │
       ▼
-Question Embedding
+    Question Embedding
       │
       ▼
-Retrieve Top Relevant Chunks
+    Retrieve Top Relevant Chunks
       │
       ▼
-Build Context + Conversation History
+    Build Context + Conversation History
       │
       ▼
-Ollama - Llama 3.1 8B
+    Ollama - Llama 3.1 8B
       │
       ▼
-AI Generated Answer
+    AI Generated Answer
       │
       ▼
-Answer + Sources
+    Answer + Sources
       │
       ▼
-React Frontend
+    React Frontend
